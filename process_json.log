@@ -1,0 +1,25 @@
+2025-07-21 11:31:08,297 - __main__ - INFO - Iniciando o processamento de JSONs...
+2025-07-21 11:31:08,297 - __main__ - INFO - Diretório verificado/criado: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data
+2025-07-21 11:31:08,297 - __main__ - INFO - Diretório verificado/criado: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\jsons
+2025-07-21 11:31:08,297 - __main__ - INFO - Diretório verificado/criado: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices
+2025-07-21 11:31:08,297 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:31:08,297 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:31:08,302 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:31:08,302 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:31:11,369 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:31:11,369 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:31:12,089 - utils.json_processor - INFO - Criando novo índice FAISS para JSONs...
+2025-07-21 11:31:12,091 - utils.json_processor - INFO - Novo índice FAISS para JSONs criado.
+2025-07-21 11:31:12,091 - utils.json_processor - INFO - Iniciando processamento do diretório JSON: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\jsons
+2025-07-21 11:31:12,091 - utils.json_processor - INFO - Encontrados 1 arquivos JSON em C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\jsons
+2025-07-21 11:31:12,091 - utils.json_processor - INFO - Processando arquivo JSON: faq.json
+2025-07-21 11:31:12,479 - utils.json_processor - INFO - Extraídos 43 chunks do arquivo faq.json
+2025-07-21 11:31:12,479 - utils.json_processor - INFO - Total de chunks extraídos de todos os JSONs: 43
+2025-07-21 11:31:12,479 - utils.json_processor - INFO - Gerando embeddings para 43 textos...
+2025-07-21 11:31:13,829 - utils.json_processor - INFO - Lote 1 de embeddings gerado.
+2025-07-21 11:31:13,829 - utils.json_processor - INFO - Embeddings gerados. Shape: (43, 512)
+2025-07-21 11:31:13,834 - utils.json_processor - INFO - 43 vetores adicionados ao índice FAISS.
+2025-07-21 11:31:13,834 - utils.json_processor - INFO - Salvando índice FAISS para JSONs com 43 vetores...
+2025-07-21 11:31:13,834 - utils.json_processor - INFO - Índice FAISS para JSONs salvo com sucesso.
+2025-07-21 11:31:13,834 - utils.json_processor - INFO - Processamento de diretório JSON concluído e índice salvo.
+2025-07-21 11:31:13,834 - __main__ - INFO - Processamento de JSONs concluído com sucesso.

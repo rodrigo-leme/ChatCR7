@@ -1,0 +1,768 @@
+2025-07-21 11:31:24,376 - __main__ - INFO - Inicializando processadores e clientes...
+2025-07-21 11:31:24,376 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:31:24,376 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:31:24,376 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:31:24,376 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:31:24,376 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-21 11:31:24,584 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:24,610 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:24,749 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:31:24,774 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:31:24,916 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:31:24,945 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:31:25,095 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:25,120 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:25,264 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:25,289 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:25,440 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:31:25,597 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:31:25,620 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:31:26,254 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:26,287 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:26,429 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:31:26,704 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:31:26,890 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:31:27,057 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:31:27,062 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:31:27,062 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:31:27,774 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:31:27,774 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:31:28,522 - __main__ - INFO - APP.PY INICIADO: Lendo as últimas modificações do código.
+2025-07-21 11:31:29,253 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:31:29,253 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:31:29,268 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:31:29,268 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:31:29,407 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:29,433 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:29,564 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:31:29,604 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:31:29,754 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:31:29,780 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:31:29,916 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:29,951 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:30,105 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:30,132 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:30,282 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:31:30,431 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:31:30,455 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:31:30,611 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:30,643 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:30,791 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:31:31,074 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:31:31,244 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:31:31,410 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:31:31,416 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:31:31,416 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:31:32,194 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:31:32,194 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:31:32,203 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 11:31:32,203 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 11:31:32,205 - werkzeug - INFO -  * Restarting with stat
+2025-07-21 11:31:37,989 - __main__ - INFO - Inicializando processadores e clientes...
+2025-07-21 11:31:37,991 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:31:37,991 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:31:37,992 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:31:37,992 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:31:37,995 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-21 11:31:38,198 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:38,225 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:38,369 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:31:38,395 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:31:38,539 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:31:38,563 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:31:38,704 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:38,733 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:38,872 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:38,911 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:39,065 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:31:39,216 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:31:39,238 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:31:39,870 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:39,895 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:40,048 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:31:40,334 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:31:40,486 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:31:40,639 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:31:40,655 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:31:40,657 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:31:41,375 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:31:41,381 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:31:42,094 - __main__ - INFO - APP.PY INICIADO: Lendo as últimas modificações do código.
+2025-07-21 11:31:42,788 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:31:42,788 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:31:42,788 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:31:42,788 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:31:42,935 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:42,965 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:43,102 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:31:43,133 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:31:43,264 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:31:43,300 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:31:43,667 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:31:43,689 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:31:43,837 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:43,864 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:44,010 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:31:44,161 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:31:44,188 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:31:44,354 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:31:44,379 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:31:44,810 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:31:45,122 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5518
+2025-07-21 11:31:45,259 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:31:45,420 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5518
+2025-07-21 11:31:45,427 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:31:45,427 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:31:46,185 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:31:46,185 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:31:46,196 - werkzeug - WARNING -  * Debugger is active!
+2025-07-21 11:31:46,198 - werkzeug - INFO -  * Debugger PIN: 338-432-119
+2025-07-21 11:31:55,784 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:31:55] "GET / HTTP/1.1" 200 -
+2025-07-21 11:31:55,815 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:31:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-21 11:31:55,815 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:31:55] "GET /static/images/belas-artes-logo.png HTTP/1.1" 200 -
+2025-07-21 11:31:55,817 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:31:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-07-21 11:32:14,113 - __main__ - INFO - Mensagem processada antes da expansão: acessar office office
+2025-07-21 11:32:14,126 - __main__ - INFO - Mensagem expandida: acessar office office
+2025-07-21 11:32:14,270 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:32:14,271 - __main__ - INFO -   [1] ID: chunk_1_6_3, Score: 0.9145, Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar ...
+2025-07-21 11:32:14,271 - __main__ - INFO -   [2] ID: chunk_1_2_1, Score: 0.9842, Texto: Pacote Office e-mail Institucional 1 verifique credencial Confirme utilizar e-mail institucional seu...
+2025-07-21 11:32:14,271 - __main__ - INFO -   [3] ID: chunk_3_4, Score: 0.9947, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:32:14,271 - __main__ - INFO -   [4] ID: chunk_1_3, Score: 1.0836, Texto: Portal Acadêmico ferramenta essencial vida universitário em ele Acompanhar nota falta consultar grad...
+2025-07-21 11:32:14,272 - __main__ - INFO -   [5] ID: chunk_1_1, Score: 1.0861, Texto: perder encontrar algum item procurar Central Atendimento Aluno unidade Verificar objeto perder entre...
+2025-07-21 11:32:14,272 - __main__ - INFO - Informações encontradas nos JSONs (score: 0.9145210981369019)
+2025-07-21 11:32:14,272 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_1_6_3
+  Subtópico: Canais de Atendimento - Presencial
+  Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar 08h 21h Unidade Paraíso Rua Estela 64 7º andar 08h 21h Campus Cidade Jardim Av. Magalhães Castro 12.000 Recepção domingo domingo 14h 20h Campus Votorantim Sorocaba Av. Gisele Constantino 1850 recepção 09h 21h Atendimento Presencial Central de Relacionamento Vila Mariana Rua Dr. Álvaro Alvim Segunda Unidade Paraíso Rua Estela Segunda Cidade Jardim Av. Magalhães de Castro Recepção): Votorantim Sorocaba Av. Gisele Constantino Recepção): Segunda
+  (Fonte: chunk_1_6_3)
+
+- ID: chunk_1_2_1
+  Subtópico: Credenciais e Acesso - Pacote Office/E-mail
+  Texto: Pacote Office e-mail Institucional 1 verifique credencial Confirme utilizar e-mail institucional seuRA@belasartes.edu.br senha correto 2 redefina senha esquecer senha dificuldade acesso redefini-la entrar contato Central Relacionamento formulário atendimento https://guidemeatendimento.crmeducacional.com/atendimento/febasp Pacote Office Institucional Central de Relacionamento
+  (Fonte: chunk_1_2_1)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_1_3
+  Subtópico: Portal Acadêmico
+  Texto: Portal Acadêmico ferramenta essencial vida universitário em ele Acompanhar nota falta consultar grade horário Retirar boleto mensalidade solicitação documento Verificar pendência documento status validação Realizar inscrição DPs adaptação disciplina optativo Solicitar troca curso turno consultar informação horário ensalamento acesse Menu > > Quadro horário Solicitar reabertura matrícula Acesse Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Portal Acadêmico DPs Menu >> Quadro de horários Portal Acadêmico
+  (Fonte: chunk_1_3)
+
+- ID: chunk_1_1
+  Subtópico: Achados e Perdidos
+  Texto: perder encontrar algum item procurar Central Atendimento Aluno unidade Verificar objeto perder entregar Registrar perda item Entregar objeto encontrar dono poder localizar endereço Central Atendimento Achados Perdidos Vila Mariana Dr. Álvaro Alvim 90 6º andar Rua Estela 64 7º andar 08:00 21:00 Campus Cidade Jardim Av. Magalhães Castro 12.000 Recepção Campus Votorantim Av. Gisele Constantino 1850 Recepção Central de Atendimento Aluno Achados Perdidos Rua Estela Cidade Jardim Av. Magalhães de Castro Recepção Campus Votorantim Av. Gisele Constantino Recepção
+  (Fonte: chunk_1_1)
+
+
+2025-07-21 11:32:15,774 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:32:15] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:32:50,791 - __main__ - INFO - Mensagem processada antes da expansão: fiquei febre semana passado com si abonar falta
+2025-07-21 11:32:50,792 - __main__ - INFO - Mensagem expandida: fiquei febre semana passado com si abonar falta justificativa de falta frequência abono de faltas dispensa de presença abono
+2025-07-21 11:32:50,792 - __main__ - INFO - Consulta expandida com termos relacionados: fiquei febre semana passado com si abonar falta justificativa de falta frequência abono de faltas dispensa de presença abono
+2025-07-21 11:32:50,792 - __main__ - INFO - Termos relacionados encontrados: justificativa de falta, frequência, abono de faltas, dispensa de presença, abono
+2025-07-21 11:32:50,885 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:32:50,885 - __main__ - INFO -   [1] ID: chunk_1_6_3, Score: 0.7715, Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar ...
+2025-07-21 11:32:50,885 - __main__ - INFO -   [2] ID: chunk_3_4, Score: 0.8278, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:32:50,886 - __main__ - INFO -   [3] ID: chunk_4_2, Score: 0.8723, Texto: frequência Abono Faltas aluno aproveitamento mínimo 75 comparecimento aula haver revisão falta haver...
+2025-07-21 11:32:50,886 - __main__ - INFO -   [4] ID: chunk_5_1_1, Score: 0.8968, Texto: Regime Especial Trabalhos Domiciliares Licença Médica Graduação regime aluno portador afecção distúr...
+2025-07-21 11:32:50,886 - __main__ - INFO -   [5] ID: chunk_2_1_2, Score: 0.9345, Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegado...
+2025-07-21 11:32:50,886 - __main__ - INFO - Informações encontradas nos JSONs (score: 0.7714805006980896)
+2025-07-21 11:32:50,887 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_1_6_3
+  Subtópico: Canais de Atendimento - Presencial
+  Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar 08h 21h Unidade Paraíso Rua Estela 64 7º andar 08h 21h Campus Cidade Jardim Av. Magalhães Castro 12.000 Recepção domingo domingo 14h 20h Campus Votorantim Sorocaba Av. Gisele Constantino 1850 recepção 09h 21h Atendimento Presencial Central de Relacionamento Vila Mariana Rua Dr. Álvaro Alvim Segunda Unidade Paraíso Rua Estela Segunda Cidade Jardim Av. Magalhães de Castro Recepção): Votorantim Sorocaba Av. Gisele Constantino Recepção): Segunda
+  (Fonte: chunk_1_6_3)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_4_2
+  Subtópico: Frequência e Abono de Faltas
+  Texto: frequência Abono Faltas aluno aproveitamento mínimo 75 comparecimento aula haver revisão falta haver abono falta exceto Aluno reservista obedecer dispor Decreto-Lei nº 715/1969 Licença Luto Óbito Parentes 1º Grau Pai Mãe Irmão Filho Esposo Avó Avô 5 dia licença Abono de Faltas Aluno Decreto-Lei Licença Luto Óbito Pai Mãe Irmão Filho Esposo Avó Avô
+  (Fonte: chunk_4_2)
+
+- ID: chunk_5_1_1
+  Subtópico: Licença Médica - Graduação
+  Texto: Regime Especial Trabalhos Domiciliares Licença Médica Graduação regime aluno portador afecção distúrbio impeçir frequência regular aula período afastamento mínimo 7 dia 40 dia semestre letivo afastamento inferior 7 dia computam falta 25 permitir compensação Compensam exclusivamente ausência aula avaliação realizar exigir solicitação 2ª Chamada via Portal Acadêmico prazo Protocolar 72 hora contar data início impedimento via Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Central Relacionamento documentação Necessária atestado original nome completo paciente período afastamento nome completo médico registro CRM carimbo assinatura Regime Especial de Trabalhos Domiciliares Licença Médica Graduação Compensam Chamada Portal Acadêmico Prazo para Protocolar Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Central de Relacionamento Documentação Necessária: Atestado
+  (Fonte: chunk_5_1_1)
+
+- ID: chunk_2_1_2
+  Subtópico: Boletos de Rematrícula
+  Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegador período atualizado alterar curso Portal Acadêmico boleto rematrícula disponível haver pendência financeiro Boletos de Rematrícula Portal Acadêmico
+  (Fonte: chunk_2_1_2)
+
+
+2025-07-21 11:32:52,865 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:32:52] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:33:16,884 - __main__ - INFO - Mensagem processada antes da expansão: link portal acadêmico
+2025-07-21 11:33:16,884 - __main__ - INFO - Mensagem expandida: link portal acadêmico
+2025-07-21 11:33:16,966 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:33:16,967 - __main__ - INFO -   [1] ID: chunk_2_1_2, Score: 0.8702, Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegado...
+2025-07-21 11:33:16,967 - __main__ - INFO -   [2] ID: chunk_3_4, Score: 0.8710, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:33:16,968 - __main__ - INFO -   [3] ID: chunk_3_1_2, Score: 0.9160, Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar re...
+2025-07-21 11:33:16,968 - __main__ - INFO -   [4] ID: chunk_1_7_2, Score: 0.9259, Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realiza...
+2025-07-21 11:33:16,969 - __main__ - INFO -   [5] ID: chunk_4_6_2, Score: 0.9578, Texto: Cursar Dependências DPs Adaptações Acadêmicas 1 verifique pendência acadêmico Acesse Portal Acadêmic...
+2025-07-21 11:33:16,969 - __main__ - INFO - Informações encontradas nos JSONs (score: 0.8701993227005005)
+2025-07-21 11:33:16,970 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_2_1_2
+  Subtópico: Boletos de Rematrícula
+  Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegador período atualizado alterar curso Portal Acadêmico boleto rematrícula disponível haver pendência financeiro Boletos de Rematrícula Portal Acadêmico
+  (Fonte: chunk_2_1_2)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_3_1_2
+  Subtópico: Reabertura de Matrícula
+  Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar reabertura ver Portal Acadêmico durante período vínculo instituição vínculo trancamento 2 semestres situação financeiro regularizar reabertura realizar janeiro julho sujeitar disponibilidade vaga iniciar reabertura enviar comunicado e-mail Reabertura de Matrícula Trancada Portal Acadêmico
+  (Fonte: chunk_3_1_2)
+
+- ID: chunk_1_7_2
+  Subtópico: Solicitação de Documentos - Ex-Alunos
+  Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realizar via Portal Acadêmico aluno possuir acesso Portal Acadêmico solicitação realizar formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp Solicitação de Documentos para Ex-Alunos Portal Acadêmico Portal Acadêmico
+  (Fonte: chunk_1_7_2)
+
+- ID: chunk_4_6_2
+  Subtópico: Dependências e Adaptações - Como Cursar
+  Texto: Cursar Dependências DPs Adaptações Acadêmicas 1 verifique pendência acadêmico Acesse Portal Acadêmico Notas visualizar semestre semestre módulo módulo disciplina aprovar reprovar adaptação grade curricular 2 inscrição DPs Adaptações inscrição fazer Portal Acadêmico data indicar Calendário Acadêmico https://www.belasartes.br/area-do-aluno/ Fique atento calendário acordo ensino graduação pós comunicar enviar próximo período inscrição 3 pagamento vencimento boleto ocorrer dia 15 aparecer ato solicitação portal conforme contrato tratar se serviço extracurricular possuir custo adicional 4 frequência Avaliação DPs seguir formato disciplina regular aula presencial online atividade avaliativo frequência obrigatório aprovação exigir participação entrega atividade propor Informações importante Verifique DP adaptação possuir pré-requisito inscrição aprovação DPs Adaptações essencial conclusão curso necessário efetuar pagamento rematrícula inscrever entanto aluno ser enturmar rematrícula caso ter dificuldade contato Central Relacionamento via formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp Cursar Dependências DPs Adaptações Acadêmicas Portal Acadêmico Notas DPs e Adaptações Portal Acadêmico Calendário Acadêmico Frequência e Avaliação: DPs Verifique DP Adaptação DPs/Adaptações Central de Relacionamento
+  (Fonte: chunk_4_6_2)
+
+
+2025-07-21 11:33:17,917 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:33:17] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:34:16,043 - __main__ - INFO - Mensagem processada antes da expansão: link portal academico
+2025-07-21 11:34:16,044 - __main__ - INFO - Mensagem expandida: link portal academico
+2025-07-21 11:34:16,127 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:34:16,127 - __main__ - INFO -   [1] ID: chunk_2_1_2, Score: 1.0481, Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegado...
+2025-07-21 11:34:16,127 - __main__ - INFO -   [2] ID: chunk_1_7_2, Score: 1.0817, Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realiza...
+2025-07-21 11:34:16,127 - __main__ - INFO -   [3] ID: chunk_3_4, Score: 1.0818, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:34:16,127 - __main__ - INFO -   [4] ID: chunk_3_1_2, Score: 1.0929, Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar re...
+2025-07-21 11:34:16,127 - __main__ - INFO -   [5] ID: chunk_3_2, Score: 1.1407, Texto: pendência Entrega Documentos possuir algum documento pendente importante realizar entrega garantir j...
+2025-07-21 11:34:16,131 - __main__ - INFO - Informações encontradas nos JSONs (score: 1.0481042861938477)
+2025-07-21 11:34:16,131 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_2_1_2
+  Subtópico: Boletos de Rematrícula
+  Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegador período atualizado alterar curso Portal Acadêmico boleto rematrícula disponível haver pendência financeiro Boletos de Rematrícula Portal Acadêmico
+  (Fonte: chunk_2_1_2)
+
+- ID: chunk_1_7_2
+  Subtópico: Solicitação de Documentos - Ex-Alunos
+  Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realizar via Portal Acadêmico aluno possuir acesso Portal Acadêmico solicitação realizar formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp Solicitação de Documentos para Ex-Alunos Portal Acadêmico Portal Acadêmico
+  (Fonte: chunk_1_7_2)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_3_1_2
+  Subtópico: Reabertura de Matrícula
+  Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar reabertura ver Portal Acadêmico durante período vínculo instituição vínculo trancamento 2 semestres situação financeiro regularizar reabertura realizar janeiro julho sujeitar disponibilidade vaga iniciar reabertura enviar comunicado e-mail Reabertura de Matrícula Trancada Portal Acadêmico
+  (Fonte: chunk_3_1_2)
+
+- ID: chunk_3_2
+  Subtópico: Pendência e Entrega de Documentos
+  Texto: pendência Entrega Documentos possuir algum documento pendente importante realizar entrega garantir jornada acadêmico ocorrer problema verificar entregar documento diretamente Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ página inicial exibir documento pendente status validação caso haver algum erro Secretaria deixar observação explicar precisar corriger poder reenviar documento atualizar Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Secretaria
+  (Fonte: chunk_3_2)
+
+
+2025-07-21 11:34:17,153 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:34:17] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:37:56,522 - __main__ - INFO - Inicializando processadores e clientes...
+2025-07-21 11:37:56,522 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:37:56,522 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:37:56,522 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:37:56,522 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:37:56,522 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-21 11:37:56,751 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:37:56,785 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:37:56,935 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:37:56,960 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:37:57,110 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:37:57,135 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:37:57,279 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:37:57,305 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:37:57,458 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:37:57,492 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:37:57,637 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:37:57,774 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:37:57,804 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:37:58,463 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:37:58,491 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:37:58,631 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:37:58,930 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:37:59,097 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:37:59,255 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:37:59,259 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:37:59,259 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:38:00,026 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:38:00,026 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:38:00,942 - __main__ - INFO - APP.PY INICIADO: Lendo as últimas modificações do código.
+2025-07-21 11:38:01,724 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:38:01,724 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:38:01,725 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:38:01,725 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:38:01,863 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:38:01,894 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:38:02,031 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:38:02,064 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:38:02,211 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:38:02,241 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:38:02,387 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:38:02,412 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:38:02,557 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:38:02,582 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:38:02,744 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:38:02,894 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:38:02,915 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:38:03,083 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:38:03,111 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:38:03,255 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:38:03,567 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:38:03,716 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:38:03,875 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:38:03,878 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:38:03,878 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:38:04,635 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:38:04,651 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:38:04,658 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 11:38:04,658 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 11:38:04,662 - werkzeug - INFO -  * Restarting with stat
+2025-07-21 11:38:11,213 - __main__ - INFO - Inicializando processadores e clientes...
+2025-07-21 11:38:11,213 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:38:11,213 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:38:11,213 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:38:11,213 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:38:11,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-21 11:38:11,438 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:38:11,462 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:38:11,606 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:38:11,630 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:38:11,783 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:38:11,808 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:38:11,954 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:38:11,978 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:38:12,123 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:38:12,150 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:38:12,310 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:38:12,453 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:38:12,477 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:38:13,293 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:38:13,313 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:38:13,473 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:38:13,763 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:38:13,919 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:38:14,095 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:38:14,095 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:38:14,095 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:38:14,885 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:38:14,886 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:38:15,628 - __main__ - INFO - APP.PY INICIADO: Lendo as últimas modificações do código.
+2025-07-21 11:38:16,375 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:38:16,375 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:38:16,375 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:38:16,375 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:38:16,516 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:38:16,544 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:38:16,698 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:38:16,720 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:38:16,869 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:38:16,892 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:38:17,042 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:38:17,066 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:38:17,210 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:38:17,233 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:38:17,383 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:38:17,523 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:38:17,553 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:38:17,718 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:38:17,745 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:38:17,893 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:38:18,419 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:38:18,583 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:38:18,757 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:38:18,769 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:38:18,769 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:38:19,529 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:38:19,529 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:38:19,534 - werkzeug - WARNING -  * Debugger is active!
+2025-07-21 11:38:19,538 - werkzeug - INFO -  * Debugger PIN: 338-432-119
+2025-07-21 11:38:25,323 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:38:25] "GET / HTTP/1.1" 200 -
+2025-07-21 11:38:25,376 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:38:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-21 11:38:25,420 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:38:25] "GET /static/images/belas-artes-logo.png HTTP/1.1" 200 -
+2025-07-21 11:38:25,422 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:38:25] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-07-21 11:38:30,190 - __main__ - INFO - Mensagem processada antes da expansão: link portal academico
+2025-07-21 11:38:30,190 - __main__ - INFO - Mensagem expandida: link portal academico
+2025-07-21 11:38:30,329 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:38:30,330 - __main__ - INFO -   [1] ID: chunk_2_1_2, Score: 1.0481, Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegado...
+2025-07-21 11:38:30,330 - __main__ - INFO -   [2] ID: chunk_1_7_2, Score: 1.0817, Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realiza...
+2025-07-21 11:38:30,330 - __main__ - INFO -   [3] ID: chunk_3_4, Score: 1.0818, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:38:30,330 - __main__ - INFO -   [4] ID: chunk_3_1_2, Score: 1.0929, Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar re...
+2025-07-21 11:38:30,331 - __main__ - INFO -   [5] ID: chunk_3_2, Score: 1.1407, Texto: pendência Entrega Documentos possuir algum documento pendente importante realizar entrega garantir j...
+2025-07-21 11:38:30,331 - __main__ - INFO - Informações encontradas nos JSONs (score: 1.0481042861938477)
+2025-07-21 11:38:30,331 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_2_1_2
+  Subtópico: Boletos de Rematrícula
+  Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegador período atualizado alterar curso Portal Acadêmico boleto rematrícula disponível haver pendência financeiro Boletos de Rematrícula Portal Acadêmico
+  (Fonte: chunk_2_1_2)
+
+- ID: chunk_1_7_2
+  Subtópico: Solicitação de Documentos - Ex-Alunos
+  Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realizar via Portal Acadêmico aluno possuir acesso Portal Acadêmico solicitação realizar formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp Solicitação de Documentos para Ex-Alunos Portal Acadêmico Portal Acadêmico
+  (Fonte: chunk_1_7_2)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_3_1_2
+  Subtópico: Reabertura de Matrícula
+  Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar reabertura ver Portal Acadêmico durante período vínculo instituição vínculo trancamento 2 semestres situação financeiro regularizar reabertura realizar janeiro julho sujeitar disponibilidade vaga iniciar reabertura enviar comunicado e-mail Reabertura de Matrícula Trancada Portal Acadêmico
+  (Fonte: chunk_3_1_2)
+
+- ID: chunk_3_2
+  Subtópico: Pendência e Entrega de Documentos
+  Texto: pendência Entrega Documentos possuir algum documento pendente importante realizar entrega garantir jornada acadêmico ocorrer problema verificar entregar documento diretamente Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ página inicial exibir documento pendente status validação caso haver algum erro Secretaria deixar observação explicar precisar corriger poder reenviar documento atualizar Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Secretaria
+  (Fonte: chunk_3_2)
+
+
+2025-07-21 11:38:31,626 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:38:31] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:38:41,666 - __main__ - INFO - Mensagem processada antes da expansão: link portal acadêmico
+2025-07-21 11:38:41,666 - __main__ - INFO - Mensagem expandida: link portal acadêmico área do aluno sistema acadêmico ambiente virtual portal do aluno intranet
+2025-07-21 11:38:41,667 - __main__ - INFO - Consulta expandida com termos relacionados: link portal acadêmico área do aluno sistema acadêmico ambiente virtual portal do aluno intranet
+2025-07-21 11:38:41,667 - __main__ - INFO - Termos relacionados encontrados: área do aluno, sistema acadêmico, ambiente virtual, portal do aluno, intranet
+2025-07-21 11:38:41,753 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:38:41,754 - __main__ - INFO -   [1] ID: chunk_2_1_2, Score: 0.7544, Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegado...
+2025-07-21 11:38:41,754 - __main__ - INFO -   [2] ID: chunk_3_4, Score: 0.7790, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:38:41,754 - __main__ - INFO -   [3] ID: chunk_1_7_2, Score: 0.7918, Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realiza...
+2025-07-21 11:38:41,756 - __main__ - INFO -   [4] ID: chunk_1_5, Score: 0.8317, Texto: calendário acadêmico acompanhar data importante semestre Verifique-o regularmente perder nenhum even...
+2025-07-21 11:38:41,757 - __main__ - INFO -   [5] ID: chunk_3_1_2, Score: 0.8366, Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar re...
+2025-07-21 11:38:41,757 - __main__ - INFO - Informações encontradas nos JSONs (score: 0.7543864250183105)
+2025-07-21 11:38:41,757 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_2_1_2
+  Subtópico: Boletos de Rematrícula
+  Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegador período atualizado alterar curso Portal Acadêmico boleto rematrícula disponível haver pendência financeiro Boletos de Rematrícula Portal Acadêmico
+  (Fonte: chunk_2_1_2)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_1_7_2
+  Subtópico: Solicitação de Documentos - Ex-Alunos
+  Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realizar via Portal Acadêmico aluno possuir acesso Portal Acadêmico solicitação realizar formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp Solicitação de Documentos para Ex-Alunos Portal Acadêmico Portal Acadêmico
+  (Fonte: chunk_1_7_2)
+
+- ID: chunk_1_5
+  Subtópico: Calendário Acadêmico
+  Texto: calendário acadêmico acompanhar data importante semestre Verifique-o regularmente perder nenhum evento prazo calendário acadêmico disponível site aluno https://www.belasartes.br/area-do-aluno/
+  (Fonte: chunk_1_5)
+
+- ID: chunk_3_1_2
+  Subtópico: Reabertura de Matrícula
+  Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar reabertura ver Portal Acadêmico durante período vínculo instituição vínculo trancamento 2 semestres situação financeiro regularizar reabertura realizar janeiro julho sujeitar disponibilidade vaga iniciar reabertura enviar comunicado e-mail Reabertura de Matrícula Trancada Portal Acadêmico
+  (Fonte: chunk_3_1_2)
+
+
+2025-07-21 11:38:42,930 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:38:42] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:38:53,361 - __main__ - INFO - Mensagem processada antes da expansão: link
+2025-07-21 11:38:53,361 - __main__ - INFO - Mensagem expandida: link
+2025-07-21 11:38:53,448 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:38:53,449 - __main__ - INFO -   [1] ID: chunk_1_6_3, Score: 1.2465, Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar ...
+2025-07-21 11:38:53,449 - __main__ - INFO -   [2] ID: chunk_3_4, Score: 1.3630, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:38:53,449 - __main__ - INFO -   [3] ID: chunk_1_7_1, Score: 1.4583, Texto: atestado Matrícula emissão fazer instantaneamente Portal Acadêmico Menu > > Relatórios > > Emitir Re...
+2025-07-21 11:38:53,449 - __main__ - INFO -   [4] ID: chunk_1_4, Score: 1.4652, Texto: estudante modalidade EAD PHYGITAL PRESENCIAL CONTENHAM DISCIPLINA EAD acessar disciplina EAD data en...
+2025-07-21 11:38:53,449 - __main__ - INFO -   [5] ID: chunk_3_1_2, Score: 1.4804, Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar re...
+2025-07-21 11:38:53,450 - __main__ - INFO - Informações encontradas nos JSONs (score: 1.2464951276779175)
+2025-07-21 11:38:53,450 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_1_6_3
+  Subtópico: Canais de Atendimento - Presencial
+  Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar 08h 21h Unidade Paraíso Rua Estela 64 7º andar 08h 21h Campus Cidade Jardim Av. Magalhães Castro 12.000 Recepção domingo domingo 14h 20h Campus Votorantim Sorocaba Av. Gisele Constantino 1850 recepção 09h 21h Atendimento Presencial Central de Relacionamento Vila Mariana Rua Dr. Álvaro Alvim Segunda Unidade Paraíso Rua Estela Segunda Cidade Jardim Av. Magalhães de Castro Recepção): Votorantim Sorocaba Av. Gisele Constantino Recepção): Segunda
+  (Fonte: chunk_1_6_3)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_1_7_1
+  Subtópico: Atestado de Matrícula
+  Texto: atestado Matrícula emissão fazer instantaneamente Portal Acadêmico Menu > > Relatórios > > Emitir Relatórios > > Acessar > > atestado Matrícula importante desbloquear pop-ups página poder gerar documento documento ficar disponível realização matrícula período letivo vigente gratuito Atestado de Matrícula Portal Acadêmico em Menu >> Relatórios >> Emitir Relatórios Acessar Atestado de Matrícula
+  (Fonte: chunk_1_7_1)
+
+- ID: chunk_1_4
+  Subtópico: Moodle EAD
+  Texto: estudante modalidade EAD PHYGITAL PRESENCIAL CONTENHAM DISCIPLINA EAD acessar disciplina EAD data entrega atividade plataforma Moodle EAD https://ead.belasartes.br/acessar/ dificuldade acionar baonline@belasartes.br EAD PHYGITAL PRESENCIAL EAD Moodle
+  (Fonte: chunk_1_4)
+
+- ID: chunk_3_1_2
+  Subtópico: Reabertura de Matrícula
+  Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar reabertura ver Portal Acadêmico durante período vínculo instituição vínculo trancamento 2 semestres situação financeiro regularizar reabertura realizar janeiro julho sujeitar disponibilidade vaga iniciar reabertura enviar comunicado e-mail Reabertura de Matrícula Trancada Portal Acadêmico
+  (Fonte: chunk_3_1_2)
+
+
+2025-07-21 11:38:54,527 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:38:54] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:41:26,942 - __main__ - INFO - Inicializando processadores e clientes...
+2025-07-21 11:41:26,945 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:41:26,945 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:41:26,945 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:41:26,945 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:41:26,945 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-21 11:41:27,188 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:27,215 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:27,367 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:41:27,390 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:41:27,524 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:41:27,561 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:41:27,704 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:27,728 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:27,872 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:27,901 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:28,033 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:41:28,193 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:41:28,217 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:41:28,853 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:28,892 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:29,038 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:41:29,337 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5518
+2025-07-21 11:41:29,491 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:41:29,646 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5515
+2025-07-21 11:41:29,655 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:41:29,655 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:41:30,373 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:41:30,373 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:41:31,130 - __main__ - INFO - APP.PY INICIADO: Lendo as últimas modificações do código.
+2025-07-21 11:41:31,852 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:41:31,852 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:41:31,852 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:41:31,852 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:41:31,998 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:32,037 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:32,178 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:41:32,202 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:41:32,350 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:41:32,376 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:41:32,507 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:32,545 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:32,699 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:32,727 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:32,877 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:41:33,029 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:41:33,052 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:41:33,220 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:33,254 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:33,409 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:41:33,701 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:41:33,854 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:41:34,006 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5518
+2025-07-21 11:41:34,022 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:41:34,022 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:41:34,745 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:41:34,745 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:41:34,753 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-21 11:41:34,755 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-21 11:41:34,755 - werkzeug - INFO -  * Restarting with stat
+2025-07-21 11:41:40,456 - __main__ - INFO - Inicializando processadores e clientes...
+2025-07-21 11:41:40,456 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:41:40,456 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:41:40,456 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:41:40,456 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:41:40,456 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-21 11:41:40,653 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:40,694 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:40,836 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:41:40,866 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:41:41,010 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:41:41,032 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:41:41,176 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:41,207 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:41,358 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:41,391 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:41,551 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:41:41,690 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:41:41,722 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:41:42,401 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:42,437 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:42,626 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:41:42,923 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:41:43,086 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:41:43,242 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5518
+2025-07-21 11:41:43,242 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:41:43,242 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:41:44,011 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:41:44,011 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:41:44,772 - __main__ - INFO - APP.PY INICIADO: Lendo as últimas modificações do código.
+2025-07-21 11:41:45,497 - utils.json_processor - INFO - Usando dispositivo: cpu
+2025-07-21 11:41:45,497 - utils.json_processor - INFO - Carregando modelo SentenceTransformer...
+2025-07-21 11:41:45,497 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-21 11:41:45,497 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: distiluse-base-multilingual-cased-v2
+2025-07-21 11:41:45,652 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:45,686 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:45,916 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-07-21 11:41:45,945 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-07-21 11:41:46,087 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-07-21 11:41:46,116 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/README.md HTTP/1.1" 200 0
+2025-07-21 11:41:46,288 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-07-21 11:41:46,313 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/modules.json HTTP/1.1" 200 0
+2025-07-21 11:41:46,454 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:46,491 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/sentence_bert_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:46,628 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-07-21 11:41:46,798 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-21 11:41:46,824 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/config.json HTTP/1.1" 200 0
+2025-07-21 11:41:47,003 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/distiluse-base-multilingual-cased-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-21 11:41:47,026 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/distiluse-base-multilingual-cased-v2/bfe45d0732ca50787611c0fe107ba278c7f3f889/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-21 11:41:47,175 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-07-21 11:41:47,470 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5515
+2025-07-21 11:41:47,614 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2/revision/main HTTP/1.1" 200 5518
+2025-07-21 11:41:47,790 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/distiluse-base-multilingual-cased-v2 HTTP/1.1" 200 5518
+2025-07-21 11:41:47,790 - utils.json_processor - INFO - Dimensão dos embeddings: 512
+2025-07-21 11:41:47,790 - utils.json_processor - INFO - Modelo SentenceTransformer carregado com sucesso
+2025-07-21 11:41:48,526 - utils.json_processor - INFO - Carregando índice JSON existente: C:\Users\febasp\Documents\ChatBot-CR12 - Copia2\data\indices\json_docs.index
+2025-07-21 11:41:48,526 - utils.json_processor - INFO - Índice carregado com sucesso. Total de vetores: 43
+2025-07-21 11:41:48,534 - werkzeug - WARNING -  * Debugger is active!
+2025-07-21 11:41:48,537 - werkzeug - INFO -  * Debugger PIN: 338-432-119
+2025-07-21 11:41:55,209 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:41:55] "GET / HTTP/1.1" 200 -
+2025-07-21 11:41:55,236 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:41:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-21 11:41:55,248 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:41:55] "GET /static/images/belas-artes-logo.png HTTP/1.1" 200 -
+2025-07-21 11:41:55,248 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:41:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-07-21 11:42:03,288 - __main__ - INFO - Mensagem processada antes da expansão: link portal academico
+2025-07-21 11:42:03,288 - __main__ - INFO - Mensagem expandida: link portal academico
+2025-07-21 11:42:03,435 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:42:03,436 - __main__ - INFO -   [1] ID: chunk_2_1_2, Score: 1.0481, Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegado...
+2025-07-21 11:42:03,437 - __main__ - INFO -   [2] ID: chunk_1_7_2, Score: 1.0817, Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realiza...
+2025-07-21 11:42:03,437 - __main__ - INFO -   [3] ID: chunk_3_4, Score: 1.0818, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:42:03,437 - __main__ - INFO -   [4] ID: chunk_3_1_2, Score: 1.0929, Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar re...
+2025-07-21 11:42:03,437 - __main__ - INFO -   [5] ID: chunk_3_2, Score: 1.1407, Texto: pendência Entrega Documentos possuir algum documento pendente importante realizar entrega garantir j...
+2025-07-21 11:42:03,438 - __main__ - INFO - Informações encontradas nos JSONs (score: 1.0481042861938477)
+2025-07-21 11:42:03,438 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_2_1_2
+  Subtópico: Boletos de Rematrícula
+  Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegador período atualizado alterar curso Portal Acadêmico boleto rematrícula disponível haver pendência financeiro Boletos de Rematrícula Portal Acadêmico
+  (Fonte: chunk_2_1_2)
+
+- ID: chunk_1_7_2
+  Subtópico: Solicitação de Documentos - Ex-Alunos
+  Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realizar via Portal Acadêmico aluno possuir acesso Portal Acadêmico solicitação realizar formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp Solicitação de Documentos para Ex-Alunos Portal Acadêmico Portal Acadêmico
+  (Fonte: chunk_1_7_2)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_3_1_2
+  Subtópico: Reabertura de Matrícula
+  Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar reabertura ver Portal Acadêmico durante período vínculo instituição vínculo trancamento 2 semestres situação financeiro regularizar reabertura realizar janeiro julho sujeitar disponibilidade vaga iniciar reabertura enviar comunicado e-mail Reabertura de Matrícula Trancada Portal Acadêmico
+  (Fonte: chunk_3_1_2)
+
+- ID: chunk_3_2
+  Subtópico: Pendência e Entrega de Documentos
+  Texto: pendência Entrega Documentos possuir algum documento pendente importante realizar entrega garantir jornada acadêmico ocorrer problema verificar entregar documento diretamente Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ página inicial exibir documento pendente status validação caso haver algum erro Secretaria deixar observação explicar precisar corriger poder reenviar documento atualizar Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Secretaria
+  (Fonte: chunk_3_2)
+
+
+2025-07-21 11:42:05,405 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:42:05] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:42:14,371 - __main__ - INFO - Mensagem processada antes da expansão: link portal acadêmico
+2025-07-21 11:42:14,375 - __main__ - INFO - Mensagem expandida: link portal acadêmico área do aluno ambiente virtual sistema acadêmico intranet portal do aluno
+2025-07-21 11:42:14,375 - __main__ - INFO - Consulta expandida com termos relacionados: link portal acadêmico área do aluno ambiente virtual sistema acadêmico intranet portal do aluno
+2025-07-21 11:42:14,375 - __main__ - INFO - Termos relacionados encontrados: área do aluno, ambiente virtual, sistema acadêmico, intranet, portal do aluno
+2025-07-21 11:42:14,472 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:42:14,473 - __main__ - INFO -   [1] ID: chunk_2_1_2, Score: 0.7481, Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegado...
+2025-07-21 11:42:14,473 - __main__ - INFO -   [2] ID: chunk_3_4, Score: 0.7601, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:42:14,474 - __main__ - INFO -   [3] ID: chunk_1_7_2, Score: 0.7841, Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realiza...
+2025-07-21 11:42:14,474 - __main__ - INFO -   [4] ID: chunk_1_5, Score: 0.8099, Texto: calendário acadêmico acompanhar data importante semestre Verifique-o regularmente perder nenhum even...
+2025-07-21 11:42:14,475 - __main__ - INFO -   [5] ID: chunk_3_1_2, Score: 0.8354, Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar re...
+2025-07-21 11:42:14,475 - __main__ - INFO - Informações encontradas nos JSONs (score: 0.7481409311294556)
+2025-07-21 11:42:14,476 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_2_1_2
+  Subtópico: Boletos de Rematrícula
+  Texto: Boletos Rematrícula estar visualizar boleto rematrícula verificar bloqueador pop-ups ativar navegador período atualizado alterar curso Portal Acadêmico boleto rematrícula disponível haver pendência financeiro Boletos de Rematrícula Portal Acadêmico
+  (Fonte: chunk_2_1_2)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_1_7_2
+  Subtópico: Solicitação de Documentos - Ex-Alunos
+  Texto: solicitação documento Ex-Alunos solicitação ex-aluno trancar desistente cancelar e/ou formar realizar via Portal Acadêmico aluno possuir acesso Portal Acadêmico solicitação realizar formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp Solicitação de Documentos para Ex-Alunos Portal Acadêmico Portal Acadêmico
+  (Fonte: chunk_1_7_2)
+
+- ID: chunk_1_5
+  Subtópico: Calendário Acadêmico
+  Texto: calendário acadêmico acompanhar data importante semestre Verifique-o regularmente perder nenhum evento prazo calendário acadêmico disponível site aluno https://www.belasartes.br/area-do-aluno/
+  (Fonte: chunk_1_5)
+
+- ID: chunk_3_1_2
+  Subtópico: Reabertura de Matrícula
+  Texto: reabertura Matrícula Trancada trancar matrícula desejar retornar curso outro necessário solicitar reabertura ver Portal Acadêmico durante período vínculo instituição vínculo trancamento 2 semestres situação financeiro regularizar reabertura realizar janeiro julho sujeitar disponibilidade vaga iniciar reabertura enviar comunicado e-mail Reabertura de Matrícula Trancada Portal Acadêmico
+  (Fonte: chunk_3_1_2)
+
+
+2025-07-21 11:42:15,378 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:42:15] "POST /api/chat HTTP/1.1" 200 -
+2025-07-21 11:42:29,673 - __main__ - INFO - Mensagem processada antes da expansão: desculpe link
+2025-07-21 11:42:29,673 - __main__ - INFO - Mensagem expandida: desculpe link
+2025-07-21 11:42:29,755 - __main__ - INFO - Resultados da busca JSON (primeiros k=5):
+2025-07-21 11:42:29,756 - __main__ - INFO -   [1] ID: chunk_1_6_3, Score: 0.9394, Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar ...
+2025-07-21 11:42:29,757 - __main__ - INFO -   [2] ID: chunk_3_4, Score: 1.0864, Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade apro...
+2025-07-21 11:42:29,757 - __main__ - INFO -   [3] ID: chunk_5_1_1, Score: 1.1361, Texto: Regime Especial Trabalhos Domiciliares Licença Médica Graduação regime aluno portador afecção distúr...
+2025-07-21 11:42:29,758 - __main__ - INFO -   [4] ID: chunk_4_2, Score: 1.1513, Texto: frequência Abono Faltas aluno aproveitamento mínimo 75 comparecimento aula haver revisão falta haver...
+2025-07-21 11:42:29,758 - __main__ - INFO -   [5] ID: chunk_1_2_1, Score: 1.1585, Texto: Pacote Office e-mail Institucional 1 verifique credencial Confirme utilizar e-mail institucional seu...
+2025-07-21 11:42:29,759 - __main__ - INFO - Informações encontradas nos JSONs (score: 0.9394050240516663)
+2025-07-21 11:42:29,759 - __main__ - INFO - Contexto JSON enviado ao Gemini:
+Baseado nas seguintes informações dos nossos documentos:
+
+- ID: chunk_1_6_3
+  Subtópico: Canais de Atendimento - Presencial
+  Texto: atendimento Presencial Central Relacionamento Unidade Vila Mariana Rua Dr. Álvaro Alvim 90 6º andar 08h 21h Unidade Paraíso Rua Estela 64 7º andar 08h 21h Campus Cidade Jardim Av. Magalhães Castro 12.000 Recepção domingo domingo 14h 20h Campus Votorantim Sorocaba Av. Gisele Constantino 1850 recepção 09h 21h Atendimento Presencial Central de Relacionamento Vila Mariana Rua Dr. Álvaro Alvim Segunda Unidade Paraíso Rua Estela Segunda Cidade Jardim Av. Magalhães de Castro Recepção): Votorantim Sorocaba Av. Gisele Constantino Recepção): Segunda
+  (Fonte: chunk_1_6_3)
+
+- ID: chunk_3_4
+  Subtópico: Aproveitamento de Estudos
+  Texto: aproveitamento Estudos aproveitamento estudo realizar ingressante entrar instituição modalidade aproveitamento 2ª graduação caso aluno estar matriculado conosco ter apresentar documento ato matrícula referir modalidade ser solicitar análise posteriormente
+  (Fonte: chunk_3_4)
+
+- ID: chunk_5_1_1
+  Subtópico: Licença Médica - Graduação
+  Texto: Regime Especial Trabalhos Domiciliares Licença Médica Graduação regime aluno portador afecção distúrbio impeçir frequência regular aula período afastamento mínimo 7 dia 40 dia semestre letivo afastamento inferior 7 dia computam falta 25 permitir compensação Compensam exclusivamente ausência aula avaliação realizar exigir solicitação 2ª Chamada via Portal Acadêmico prazo Protocolar 72 hora contar data início impedimento via Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Central Relacionamento documentação Necessária atestado original nome completo paciente período afastamento nome completo médico registro CRM carimbo assinatura Regime Especial de Trabalhos Domiciliares Licença Médica Graduação Compensam Chamada Portal Acadêmico Prazo para Protocolar Portal Acadêmico https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/ Central de Relacionamento Documentação Necessária: Atestado
+  (Fonte: chunk_5_1_1)
+
+- ID: chunk_4_2
+  Subtópico: Frequência e Abono de Faltas
+  Texto: frequência Abono Faltas aluno aproveitamento mínimo 75 comparecimento aula haver revisão falta haver abono falta exceto Aluno reservista obedecer dispor Decreto-Lei nº 715/1969 Licença Luto Óbito Parentes 1º Grau Pai Mãe Irmão Filho Esposo Avó Avô 5 dia licença Abono de Faltas Aluno Decreto-Lei Licença Luto Óbito Pai Mãe Irmão Filho Esposo Avó Avô
+  (Fonte: chunk_4_2)
+
+- ID: chunk_1_2_1
+  Subtópico: Credenciais e Acesso - Pacote Office/E-mail
+  Texto: Pacote Office e-mail Institucional 1 verifique credencial Confirme utilizar e-mail institucional seuRA@belasartes.edu.br senha correto 2 redefina senha esquecer senha dificuldade acesso redefini-la entrar contato Central Relacionamento formulário atendimento https://guidemeatendimento.crmeducacional.com/atendimento/febasp Pacote Office Institucional Central de Relacionamento
+  (Fonte: chunk_1_2_1)
+
+
+2025-07-21 11:42:30,846 - werkzeug - INFO - 127.0.0.1 - - [21/Jul/2025 11:42:30] "POST /api/chat HTTP/1.1" 200 -

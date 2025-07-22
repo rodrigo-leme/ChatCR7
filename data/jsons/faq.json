@@ -1,0 +1,538 @@
+[
+    {
+      "id": "chunk_1_1",
+      "text": "Se você perdeu ou encontrou algum item, procure a Central de Atendimento ao Aluno nas unidades. Lá, você poderá: Verificar se o seu objeto perdido foi entregue. Registrar a perda de um item. Entregar objetos encontrados para que o dono possa ser localizado. Endereços da Central de Atendimento (para Achados e Perdidos): Vila Mariana: Dr. Álvaro Alvim, 90 – 6º andar / Rua Estela, 64 – 7º andar (08:00 às 21:00) Campus Cidade Jardim: Av. Magalhães de Castro, 12.000 – Recepção Campus Votorantim: Av. Gisele Constantino, 1850 – Recepção",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Vida Estudantil",
+        "sub_assunto": "Achados e Perdidos",
+        "publico_alvo": "Alunos (Geral)",
+        "campus_atendimento": ["Vila Mariana", "Cidade Jardim", "Votorantim"],
+        "departamento_responsavel": "Central de Atendimento ao Aluno"
+      }
+    },
+    {
+      "id": "chunk_1_2_1",
+      "text": "Pacote Office/E-mail Institucional. 1. Verifique suas credenciais: Confirme se você está utilizando seu e-mail institucional (seuRA@belasartes.edu.br) e se sua senha está correta. 2. Redefina sua senha: Se esqueceu a senha ou está com dificuldades de acesso, você pode redefini-la entrando em contato com a Central de Relacionamento pelo formulário de atendimento: https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Serviços e Contato",
+        "sub_assunto": "Credenciais e Acesso - Pacote Office/E-mail",
+        "publico_alvo": "Alunos (Geral)",
+        "departamento_responsavel": "Central de Relacionamento"
+      }
+    },
+    {
+      "id": "chunk_1_2_2",
+      "text": "Pacote Adobe. Todos os laboratórios de informática (LCGs) da instituição estão equipados com licença oficial do Adobe, oferecendo o suporte necessário para seus trabalhos acadêmicos com as ferramentas completas. Para dúvidas sobre o uso da licença Adobe, converse com o coordenador do seu curso ou entre em contato com a Central de Relacionamento pelo link: https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Serviços e Contato",
+        "sub_assunto": "Credenciais e Acesso - Pacote Adobe",
+        "publico_alvo": "Alunos (Geral)",
+        "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+        "departamento_responsavel": "Central de Relacionamento"
+      }
+    },
+    {
+        "id": "chunk_1_3",
+        "text": "O Portal Acadêmico é uma ferramenta essencial para sua vida universitária. Nele, você pode: Acompanhar suas notas e faltas. Consultar sua grade horária. Retirar boletos de mensalidades. Fazer solicitações de documentos. Verificar pendências de documentos e o status de validação. Realizar inscrições em DPs, adaptações e disciplinas optativas. Solicitar troca de curso ou turno. **Para consultar informações de horário e ensalamento, acesse Menu >> Quadro de horários.** Solicitar reabertura de matrícula. Acesse o Portal Acadêmico: https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/",
+        "metadata": {
+          "tipo_documento": "Regulamento Acadêmico e FAQs",
+          "nivel_educacional": "Todos os Níveis",
+          "assunto_principal": "Serviços e Contato",
+          "sub_assunto": "Portal Acadêmico",
+          "publico_alvo": "Alunos (Geral)",
+          "url_fonte_original": "https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/",
+          "palavras_chave_adicionais": ["horário de aula", "quadro de horários", "grade de aulas", "ensalamento", "acesso ao portal", "notas e faltas", "solicitações de documentos", "boletos"]
+        }
+      },
+    {
+      "id": "chunk_1_4",
+      "text": "Estudantes das modalidades EAD, PHYGITAL ou PRESENCIAL QUE CONTENHAM DISCIPLINA EAD devem acessar as disciplinas EAD e as datas das entregas de atividades pela plataforma Moodle EAD: https://ead.belasartes.br/acessar/ Qualquer dificuldade, você poderá acionar: baonline@belasartes.br",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Moodle EAD",
+        "publico_alvo": "Alunos (Geral)",
+        "url_fonte_original": "https://ead.belasartes.br/acessar/",
+        "departamento_responsavel": "DTI"
+      }
+    },
+    {
+      "id": "chunk_1_5",
+      "text": "Com o calendário acadêmico, você poderá acompanhar as datas importantes do semestre. Verifique-o regularmente para não perder nenhum evento ou prazo. O calendário acadêmico está disponível no site, na área do aluno: https://www.belasartes.br/area-do-aluno/",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Calendário Acadêmico",
+        "publico_alvo": "Alunos (Geral)",
+        "url_fonte_original": ["https://www.belasartes.br/area-do-aluno/", "https://www.belasartes.br/wp-content/uploads/2025/06/Calendario-Escolar-2025-1-Alunos-Graduacao-Atualizado-28-03-2025-1-1.pdf"]
+      }
+    },
+    {
+      "id": "chunk_1_6_1",
+      "text": "Formulário de Atendimento (Central de Relacionamento). Disponível 24 horas por dia, todos os dias da semana. Ao abrir uma solicitação, você receberá um protocolo para acompanhamento. Acesse: https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Serviços e Contato",
+        "sub_assunto": "Canais de Atendimento - Formulário",
+        "publico_alvo": "Alunos (Geral)",
+        "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+        "departamento_responsavel": "Central de Relacionamento"
+      }
+    },
+    {
+      "id": "chunk_1_6_2",
+      "text": "Chat Online. Atendimento de segunda a sexta, das 09h às 18h. Acesse o site e clique no ícone de chat no canto da página: www.belasartes.br Para dúvidas sobre documentações pendentes, selecione a opção 'Documentações' no chat.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Serviços e Contato",
+        "sub_assunto": "Canais de Atendimento - Chat Online",
+        "publico_alvo": "Alunos (Geral)",
+        "url_fonte_original": "www.belasartes.br"
+      }
+    },
+    {
+      "id": "chunk_1_6_3",
+      "text": "Atendimento Presencial (Central de Relacionamento). Unidade Vila Mariana (Rua Dr. Álvaro Alvim, 90 – 6º andar): Segunda a sexta, das 08h às 21h. Unidade Paraíso (Rua Estela, 64 – 7º andar): Segunda a sexta, das 08h às 21h. Campus Cidade Jardim (Av. Magalhães de Castro, 12.000 – Recepção): Domingo a domingo, das 14h às 20h. Campus Votorantim (Sorocaba) (Av. Gisele Constantino, 1850 – Recepção): Segunda a sexta, das 09h às 21h.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Serviços e Contato",
+        "sub_assunto": "Canais de Atendimento - Presencial",
+        "publico_alvo": "Alunos (Geral)",
+        "campus_atendimento": ["Vila Mariana", "Paraíso", "Cidade Jardim", "Votorantim"],
+        "departamento_responsavel": "Central de Relacionamento"
+      }
+    },
+    {
+        "id": "chunk_1_7_1",
+        "text": "Atestado de Matrícula: A emissão pode ser feita instantaneamente através do Portal Acadêmico em Menu >> Relatórios >> Emitir Relatórios >> Acessar >> Atestado de Matrícula. É importante desbloquear os pop-ups da página para que possa gerar o documento. Esse documento só ficará disponível após a realização da matrícula no período letivo vigente e ele é gratuito.",
+        "metadata": {
+          "tipo_documento": "Regulamento Acadêmico e FAQs",
+          "nivel_educacional": "Todos os Níveis",
+          "assunto_principal": "Serviços e Contato",
+          "sub_assunto": "Atestado de Matrícula",
+          "publico_alvo": "Alunos Ativos",
+          "url_fonte_original": "https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/",
+          "departamento_responsavel": "Secretaria Acadêmica",
+          "palavras_chave_adicionais": ["declaração de matrícula", "comprovante de matrícula", "documento gratuito", "comprovante de matricula"]
+        }
+    },
+    {
+        "id": "chunk_1_7_2",
+        "text": "Solicitação de Documentos para Ex-Alunos: As solicitações para ex-alunos (trancados, desistentes, cancelados e/ou formados) são realizadas via Portal Acadêmico. Contudo, para alunos que não possuem mais acesso ao Portal Acadêmico, a solicitação deve ser realizada através do formulário: https://guidemeatendimento.crmeducacional.com/atendimento/febasp.",
+        "metadata": {
+          "tipo_documento": "Regulamento Acadêmico e FAQs",
+          "nivel_educacional": "Todos os Níveis",
+          "assunto_principal": "Serviços e Contato",
+          "sub_assunto": "Solicitação de Documentos - Ex-Alunos",
+          "publico_alvo": "Ex-Alunos",
+          "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+          "departamento_responsavel": "Central de Relacionamento",
+          "palavras_chave_adicionais": ["histórico escolar ex-aluno", "declaração ex-aluno", "documentos para egressos", "acesso ao portal ex-aluno"]
+        }
+      },
+    {
+      "id": "chunk_2_1_1",
+      "text": "Formas de Pagamento e Vencimentos. A forma de pagamento das mensalidades é via boleto bancário. Por motivos de segurança e proteção de dados, não enviamos boletos por e-mail. O responsável financeiro ou o aluno deve acessar o boleto diretamente pelo Portal Acadêmico. Graduação: Vencimento sempre no dia 1º de cada mês. Pós-graduação e Mestrado: Vencimento no dia 10 de cada mês. Disciplinas de Dependência (DPs) e Adaptação (TODOS OS NÍVEIS DE ENSINO): Vencimento no dia 15 de cada mês. Solicitação de Documentos: Pagamento via Pix diretamente na plataforma ou cartão de Crédito pelo Portal Acadêmico.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Financeiro",
+        "sub_assunto": "Boletos e Vencimentos",
+        "publico_alvo": "Alunos Ativos",
+        "departamento_responsavel": "Financeiro"
+      }
+    },
+    {
+      "id": "chunk_2_1_2",
+      "text": "Boletos de Rematrícula. Se não estiver visualizando seu boleto de rematrícula, verifique se você não está com o bloqueador de pop-ups ativado em seu navegador e se o período está atualizado na área 'alterar curso' no Portal Acadêmico. O boleto de rematrícula só estará disponível se não houver pendência financeira.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Financeiro",
+        "sub_assunto": "Boletos de Rematrícula",
+        "publico_alvo": "Alunos Ativos",
+        "departamento_responsavel": "Financeiro"
+      }
+    },
+    {
+      "id": "chunk_2_1_3",
+      "text": "Negociação de Boletos Atrasados. Para negociar boletos com vencimento superior a 30 dias, entre em contato pelo WhatsApp ou compareça presencialmente ao setor de negociação. WhatsApp: (11) 5576-5794. Endereço: Rua Dr. Álvaro Alvim, 114. Atendimento presencial: Segunda a quinta das 09h às 16h, sexta 09h às 15h.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Financeiro",
+        "sub_assunto": "Negociação de Débitos",
+        "publico_alvo": "Alunos Ativos",
+        "campus_atendimento": "Vila Mariana",
+        "departamento_responsavel": "Financeiro",
+        "palavras_chave_adicionais": ["Acordo", "Negociação de débito", "Negociação"]
+      }
+    },
+    {
+      "id": "chunk_2_2",
+      "text": "Bolsas, Financiamentos e Descontos. Se você tem dúvidas sobre bolsas, financiamentos (incluindo FIES, Fundacred, Prouni) ou outros descontos, nossa equipe está à disposição para te orientar. E-mail de contato: proba@belasartes.br. Atendimento presencial: Rua Dr. Álvaro Alvim, 114. Horário: Segunda a quinta das 09h às 16h, sexta 09h às 15h. Você também pode verificar as condições de bolsas em nossa página: https://www.belasartes.br/bolsas/",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Financeiro",
+        "sub_assunto": "Bolsas e Financiamentos",
+        "publico_alvo": "Alunos (Geral)",
+        "campus_atendimento": "Vila Mariana",
+        "url_fonte_original": "https://www.belasartes.br/bolsas/",
+        "departamento_responsavel": "Proba"
+      }
+    },
+    {
+      "id": "chunk_2_3_1",
+      "text": "Passe Escolar (SPTrans e Cartão TOP). SPTrans (São Paulo - Capital). Válido para alunos que residem na cidade de São Paulo (capital). A solicitação deve ser realizada todo semestre através do Portal Acadêmico (Menu >> Secretaria >> Requerimentos >> Carteira de Passe Escolar SPTrans). A Secretaria Acadêmica realiza o pré-cadastro do aluno no sistema da SPTrans dentro de 10 dias úteis. Após esse prazo, o aluno deve finalizar o preenchimento de seus dados e acompanhar o andamento da solicitação pelo site da SPTrans (https://sptrans.documentodoestudante.com.br/). Importante: As solicitações abrem na segunda quinzena de janeiro ou julho e são válidas somente para alunos regularmente matriculados. Todos os alunos regularmente matriculados devem solicitar o serviço todo semestre, mesmo que seja apenas renovação. Após a confirmação do seu cadastro, você deverá efetuar o pagamento do boleto gerado. Para solicitações a partir de 31 de janeiro de 2022, o cartão é enviado ao endereço cadastrado, sem cobrança de frete, em até 7 dias úteis. Observação: Os alunos devem confirmar dados pessoais, como endereço e documento de identidade, no Portal Acadêmico, pois essas informações serão repassadas à SPTrans exatamente como constam. NÃO HÁ COMO SABER O STATUS DO PASSE ESCOLAR VIA INSTITUIÇÃO – ESSE ACOMPANHAMENTO É REALIZADO PELO PRÓPRIO ALUNO nos sites da SPTrans.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Vida Estudantil",
+        "sub_assunto": "Passe Escolar - SPTrans",
+        "publico_alvo": "Alunos de SP (Capital)",
+        "url_fonte_original": "https://sptrans.documentodoestudante.com.br/",
+        "departamento_responsavel": "Secretaria Acadêmica",
+        "palavras_chave_adicionais": "SPTrans"
+      }
+    },
+    {
+      "id": "chunk_2_3_2",
+      "text": "Cartão TOP (Antigo BOM Escolar - Região Metropolitana de São Paulo). Válido para alunos que residem na região metropolitana de São Paulo (fora da capital). A solicitação deve ser realizada pelo Portal Acadêmico (Menu >> Secretaria >> Requerimentos >> Cadastro para solicitação ou renovação BOM ESCOLAR). A solicitação é realizada uma única vez e será válida até o final do curso do aluno. A Secretaria Acadêmica realiza o pré-cadastro do aluno no sistema da EMTU dentro de 10 dias úteis. Após esse prazo, o aluno deve finalizar o preenchimento de seus dados e acompanhar o andamento da solicitação pelo site da EMTU. Importante: As solicitações abrem na segunda quinzena de janeiro ou julho e são válidas somente para alunos regularmente matriculados. Após 10 dias úteis da sua solicitação no portal, você deve acessar o site do BOM para conferir sua situação, que deverá estar como 'Ativa'. Siga as instruções no site da EMTU e, se necessário, entregue a documentação solicitada na Central de Relacionamento. Em caso de alteração, a validação está sujeita a análise da secretaria geral, mediante documento comprobatório se necessário. Não é permitido cadastro de endereços residenciais na mesma cidade da IES.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Vida Estudantil",
+        "sub_assunto": "Passe Escolar - Cartão TOP",
+        "publico_alvo": "Alunos da Região Metropolitana",
+        "departamento_responsavel": "Secretaria Acadêmica",
+        "palavras_chave_adicionais": ["BOM Escolar"]
+      }
+    },
+    {
+      "id": "chunk_2_4",
+      "text": "Troca de Responsável Financeiro. Sim, você pode trocar seu responsável financeiro. Para que a troca seja efetuada, preencha o formulário https://guidemeatendimento.crmeducacional.com/atendimento/febasp. Após o preenchimento, você receberá as orientações sobre a documentação que deverá ser entregue.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Financeiro",
+        "sub_assunto": "Troca de Responsável Financeiro",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+        "departamento_responsavel": "Financeiro"
+      }
+    },
+    {
+      "id": "chunk_3_1_1",
+      "text": "Trancamento, Cancelamento e Reabertura de Matrícula. Para qualquer solicitação relacionada a trancamento, cancelamento ou adiamento de curso, é imprescindível que você entre em contato com a Central de Relacionamento. A formalização do pedido deve ser feita por meio do preenchimento do formulário disponível no link: https://guidemeatendimento.crmeducacional.com/atendimento/febasp. Após o envio, nossa equipe entrará em contato com você em até 7 dias úteis.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Trancamento e Cancelamento de Matrícula",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+        "departamento_responsavel": "Central de Relacionamento"
+      }
+    },
+    {
+      "id": "chunk_3_1_2",
+      "text": "Reabertura de Matrícula (Trancada). Se você trancou a matrícula e deseja retornar (mesmo curso ou outro), é necessário solicitar a reabertura via Portal Acadêmico, durante o período de vínculo com a instituição (o vínculo de trancamento é de 2 semestres). Sua situação financeira deve ser regularizada. A reabertura poderá ser realizada em janeiro / julho (sujeito à disponibilidade de vagas). Assim que iniciamos a reabertura, enviamos um comunicado ao seu e-mail.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Reabertura de Matrícula",
+        "publico_alvo": "Alunos Ativos",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_3_1_3",
+      "text": "Retorno de Cancelamento de Matrícula. Se você cancelou sua matrícula e deseja retornar, é necessário prestar novamente o processo seletivo e realizar a matrícula. Caso tenha concluído disciplinas na Belas Artes, sugerimos que retorne por meio de Aproveitamento de Estudos, apenas se inscrevendo no processo seletivo e abrindo o requerimento para análise. Para dúvidas, contate cursos@belasartes.br.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Retorno de Cancelamento de Matrícula",
+        "publico_alvo": "Ex-Alunos",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_3_2",
+      "text": "Pendência e Entrega de Documentos. Se você possui algum documento pendente, é muito importante que realize a entrega o quanto antes para garantir que sua jornada acadêmica ocorra sem problemas. Você pode verificar e entregar os documentos diretamente pelo Portal Acadêmico (https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/). Na página inicial, são exibidos os documentos pendentes e o status de validação. Caso haja algum erro, a Secretaria deixará uma observação explicando o que precisa ser corrigido para que você possa reenviar o documento atualizado.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Pendência e Entrega de Documentos",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/",
+        "departamento_responsavel": "Secretaria Acadêmica",
+        "palavras_chave_adicionais": ["documentos pendentes", "entregar documentos", "regularizar documentos", "situação de documentos", "como entregar documentos", "verificar pendências", "documentos reprovados"]
+      }
+    },
+    {
+      "id": "chunk_3_3",
+      "text": "Troca de Curso/Período. A solicitação de troca de curso/turno para alunos matriculados deve ser feita através do Portal Acadêmico (Menu > Secretaria > Requerimentos > Mudança de curso ou Mudança de Turno). O prazo para troca de curso/período é divulgado semestralmente via calendário acadêmico. Fique atento aos comunicados enviados diariamente ao seu e-mail com as regras para efetuar a troca.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Troca de Curso/Período",
+        "publico_alvo": "Alunos Ativos",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_3_4",
+      "text": "Aproveitamento de Estudos. O aproveitamento de estudos é realizado apenas para ingressantes que entram na instituição por meio da modalidade de aproveitamento ou 2ª graduação. Caso o aluno já esteja matriculado conosco e não tenha apresentado os documentos no ato da matrícula, dentro da referida modalidade, não será possível solicitar a análise posteriormente.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Aproveitamento de Estudos",
+        "publico_alvo": "Alunos Ingressantes",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_3_5",
+      "text": "Matrícula em Continuação (Disciplinas Pendentes no Final do Curso). O aluno que concluir o último semestre do curso e tiver disciplinas pendentes (optativa, adaptações e/ou dependências), deverá solicitar as disciplinas dentro do prazo de calendário ou do prazo comunicado por e-mail. Além disso, é necessário efetuar o pagamento do boleto de matrícula que estará disponível na área financeira do Portal Acadêmico (certifique-se de que o período letivo esteja atualizado). Caso não esteja, contate a Central de Relacionamento via formulário: https://guidemeatendimento.crmeducacional.com/atendimento/febasp.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Matrícula em Continuação (Disciplinas Pendentes)",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_4_1",
+      "text": "Reprovação (Critérios e Retenção). O aluno que não atingir a média final ou não alcançar a frequência mínima necessária de 75% (setenta e cinco por cento) estará reprovado na disciplina. Ao obter reprovação em 4 (quatro) ou mais disciplinas, será considerado retido e impedido de cursar o semestre seguinte. Estará automaticamente matriculado nas disciplinas do semestre letivo em que houve a última reprovação, devendo, portanto, solicitar a inscrição nas disciplinas adquiridas em semestres anteriores (caso haja) e pretenda cursá-las no semestre vigente. Mesmo que o aluno obtenha apenas uma Dependência (DP), ele não estará apto a cursar o último semestre sem antes cursar essa DP para progredir para o semestre final. Exceção: Os alunos dos cursos Tecnólogos e EAD (exceto PEDAGOGIA, LICENCIATURA EM HISTÓRIA e ADMINISTRAÇÃO, que são bacharelados e ficam retidos com 4 DPs) não ficarão retidos por acúmulo de DPs.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Critérios de Reprovação e Retenção",
+        "publico_alvo": "Alunos (Geral)"
+      }
+    },
+    {
+      "id": "chunk_4_2",
+      "text": "Frequência e Abono de Faltas. O aluno deve ter aproveitamento mínimo de 75% de comparecimento nas aulas. Não há revisão de faltas. Não há abono de faltas, exceto para: Aluno reservista, obedecido o que dispõe o Decreto-Lei nº 715/1969. Licença Luto (Óbito) Parentes de 1º Grau (Pai, Mãe, Irmão, Filho, Esposo, Avó e Avô) – 5 dias de licença.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Frequência e Abono de Faltas",
+        "publico_alvo": "Alunos (Geral)",
+        "palavras_chave_adicionais": ["abono de faltas", "abono", "falta", "frequência"]
+      }
+    },
+    {
+      "id": "chunk_4_3",
+      "text": "Cálculo e Arredondamento de Média. A média final deve ser igual ou superior a seis, correspondente à média ponderada das duas notas bimestrais (1º e 2º bimestre). As notas serão totalizadas aplicando-se peso dois à primeira nota bimestral e peso três à segunda nota bimestral, realizando a soma e dividindo por 5. Ocorrerá arredondamento da média final, de no máximo, vinte e quatro centésimos, nos casos de média final maior ou igual a 5,76 (cinco e setenta e seis).",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Cálculo e Arredondamento de Média",
+        "publico_alvo": "Alunos (Geral)"
+      }
+    },
+    {
+      "id": "chunk_4_4",
+      "text": "Segunda Chamada de Avaliação. Será concedida a segunda chamada de prova ao aluno que não compareceu no dia da avaliação. Para isso, deve requerer no Portal Acadêmico e efetuar o pagamento da solicitação, no prazo previsto em calendário escolar. Só é permitido solicitar segunda chamada de uma avaliação por disciplina, seja ela do 1º ou 2º bimestre.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Segunda Chamada de Avaliação",
+        "publico_alvo": "Alunos Ativos"
+      }
+    },
+    {
+      "id": "chunk_4_5",
+      "text": "Prova BA. A Prova BA é uma avaliação institucional que tem o objetivo de avaliar o conhecimento adquirido nos semestres anteriores pelos alunos dos cursos de Bacharelado, bem como desenvolver habilidades e competências para a resolução de questões objetivas com o padrão das provas do ENADE.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Prova BA",
+        "publico_alvo": "Alunos de Bacharelado"
+      }
+    },
+    {
+      "id": "chunk_4_6_1",
+      "text": "Dependências (DPs) e Adaptações Acadêmicas. Diferença: Dependências (DPs): Disciplinas que devem ser cursadas novamente devido à reprovação. Adaptações: Disciplinas advindas da transferência de curso ou alteração de matriz curricular, que devem ser cursadas para adaptar o aluno ao currículo atualizado.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Dependências e Adaptações - Definição",
+        "publico_alvo": "Alunos (Geral)",
+        "palavras_chave_adicionais": ["DP", "Diferença entre DP e Adaptação"]
+      }
+    },
+    {
+      "id": "chunk_4_6_2",
+      "text": "Como Cursar Dependências (DPs) e Adaptações Acadêmicas: 1. Verifique suas pendências acadêmicas: Acesse o Portal Acadêmico (na área de Notas, você poderá visualizar, semestre a semestre ou módulo a módulo, quais disciplinas foram aprovadas ou reprovadas, e as adaptações em sua grade curricular). 2. Inscrição nas DPs e Adaptações: As inscrições devem ser feitas pelo Portal Acadêmico, nas datas indicadas no Calendário Acadêmico (https://www.belasartes.br/area-do-aluno/). Fique atento ao calendário de acordo com seu nível de ensino (graduação, pós). Comunicados também são enviados próximos ao período de inscrição. 3. Pagamento: O vencimento dos boletos ocorre sempre no dia 15 de cada mês. O valor aparece no ato da solicitação no portal e, conforme contrato, trata-se de um serviço extracurricular, portanto, possui custo adicional. 4. Frequência e Avaliação: As DPs seguem o mesmo formato das disciplinas regulares, com aulas presenciais ou online, atividades avaliativas e frequência obrigatória. A aprovação exige participação e entrega das atividades propostas. Informações importantes: Verifique se a DP/Adaptação possui pré-requisitos antes da inscrição. A aprovação nas DPs/Adaptações é essencial para a conclusão do seu curso. Não é necessário efetuar pagamento da rematrícula para se inscrever, no entanto, o aluno só será enturmado após a rematrícula. Caso tenha qualquer dificuldade, entre em contato com a Central de Relacionamento via formulário: https://guidemeatendimento.crmeducacional.com/atendimento/febasp.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Dependências e Adaptações - Como Cursar",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": ["https://www.belasartes.br/area-do-aluno/", "https://guidemeatendimento.crmeducacional.com/atendimento/febasp"],
+        "departamento_responsavel": "Secretaria Acadêmica",
+        "palavras_chave_adicionais": ["Matrícula em DP", "Custo DP"]
+      }
+    },
+    {
+      "id": "chunk_4_7",
+      "text": "Inscrição em Disciplina Optativa. O prazo para inscrição é divulgado semestralmente via calendário acadêmico. As inscrições são realizadas através do Portal Acadêmico (Menu > Secretaria > Requerimentos > Inscrição em Disciplina Optativa). A disciplina optativa não tem custo. Se você reprovou em uma disciplina optativa, o prazo para inscrição na DP é o mesmo da optativa regular e também é feito pelo Portal Acadêmico (Menu > Secretaria > Requerimentos > Inscrição em DP de Disciplina Optativa). A DP de optativa possui custo.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Inscrição em Disciplina Optativa",
+        "publico_alvo": "Alunos Ativos"
+      }
+    },
+    {
+      "id": "chunk_5_1_1",
+      "text": "Regime Especial de Trabalhos Domiciliares (Licença Médica) - Graduação. Este regime é para alunos portadores de afecções ou distúrbios que impeçam a frequência regular às aulas. Período de afastamento: Mínimo de 7 dias e máximo de 40 dias dentro do semestre letivo. Afastamentos inferiores a 7 dias computam faltas (até 25% permitidas). Compensação: Compensam exclusivamente a ausência das aulas. Avaliações não realizadas exigem solicitação de 2ª Chamada via Portal Acadêmico. Prazo para Protocolar: 72 horas, contado da data de início do impedimento, via Portal Acadêmico (https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/) ou na Central de Relacionamento. Documentação Necessária: Atestado original com nome completo do paciente, período de afastamento, nome completo do médico, registro no CRM, carimbo e assinatura.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Licença Médica - Graduação",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_5_1_2",
+      "text": "Regime Especial de Trabalhos Domiciliares (Licença Médica) - Pós-Graduação. Destinado a alunos que mantenham condições intelectuais e emocionais para prosseguir as atividades escolares em novos moldes. Período de afastamento: Mínimo de 5 dias e máximo de 20 dias dentro de um módulo (sem prejuízo acadêmico). Observação: Se a disciplina for semipresencial, não é possível trabalhos domiciliares para compensar faltas, devendo o aluno cumprir as atividades online. Prazo para Protocolar: 72 horas após o início do afastamento, via Portal Acadêmico (https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/). Documentação Necessária: Atestado original com nome completo do paciente, período de afastamento, nome completo do médico, registro no CRM, carimbo e assinatura.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Pós-Graduação",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Licença Médica - Pós-Graduação",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_5_1_3",
+      "text": "Regime Especial de Trabalhos Domiciliares (Licença Médica) - Mestrado. Os casos são analisados individualmente. O aluno deve enviar o atestado médico por meio do formulário de atendimento (CRM): https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Mestrado",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Licença Médica - Mestrado",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_5_2",
+      "text": "Licença Maternidade (Graduação). Período de afastamento: A partir do oitavo mês de gestação, com a aluna assistida pelo regime de trabalhos domiciliares por até 90 dias a contar da data de início do afastamento. Compensação: Compensam exclusivamente a ausência das aulas. Avaliações não realizadas exigem solicitação de 2ª Chamada via Portal Acadêmico. Prazo para Protocolar: 72 horas, contado da data de início do impedimento, via Portal Acadêmico (https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/) ou na Central de Relacionamento. Documentação Necessária: Atestado original com nome completo da aluna, período de afastamento, nome completo do médico, registro no CRM, carimbo e assinatura.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Licença Maternidade",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://portal.belasartes.br/FrameHTML/Web/App/Edu/PortalEducacional/login/",
+        "departamento_responsavel": "Secretaria Acadêmica"
+      }
+    },
+    {
+      "id": "chunk_5_3",
+      "text": "Licença Luto (Óbito). Concedida a parentes de 1º Grau (Pai, Mãe, Irmão, Filho, Esposo, Avó e Avô) por 5 dias de licença. As entregas são feitas no Portal Acadêmico (Secretaria > Requerimentos > Regime Especial – Licença Médica).",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Licença Luto",
+        "publico_alvo": "Alunos Ativos"
+      }
+    },
+    {
+      "id": "chunk_5_4",
+      "text": "Convicção Religiosa. Com base na Lei n. 12.142, 08/12/2005 (Estado de São Paulo), alunos cuja crença religiosa os impede de participar de aulas devem enviar sua carta de convicção religiosa no Portal Acadêmico (Secretaria > Requerimentos > Convicção religiosa). Após o envio, acompanhe a solicitação via portal.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Convicção Religiosa",
+        "publico_alvo": "Alunos Ativos"
+      }
+    },
+    {
+      "id": "chunk_6_1_1",
+      "text": "Colação de Grau, Certificado e Diploma. Somente o aluno que for aprovado em todas as disciplinas, cumprir todas as atividades curriculares e estiver com a situação regular junto ao ENADE poderá colar grau na data estabelecida pelo Centro Universitário Belas Artes de São Paulo. A assinatura na ata de colação de grau ocorrerá de forma digital. Acesse seu e-mail para realizar a assinatura eletrônica no dia da cerimônia solene. O certificado de conclusão também será enviado por e-mail após a verificação da assinatura na ata. A via final do histórico escolar será enviada no prazo de até 2 meses (após a colação de grau). O diploma é expedido no prazo de até 4 (quatro) meses, a partir da data da colação. Nossos documentos são assinados digitalmente, possuindo verificação e certificação pela ICP Brasil, dispensando qualquer outro tipo de autenticação, conforme Portaria MEC nº 360 de 18/05/2022.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "Colação de Grau e Diploma",
+        "publico_alvo": "Alunos Concluintes"
+      }
+    },
+    {
+      "id": "chunk_6_1_2",
+      "text": "2ª Via de Diploma. A solicitação de segunda via de diploma é realizada através do formulário de atendimento: https://guidemeatendimento.crmeducacional.com/atendimento/febasp. Valor: R$300,00. Prazo de emissão: 4 a 6 meses após a compensação do pagamento. É importante preencher o formulário com a justificativa da solicitação. Motivos de perda ou rasura do material devem ser acompanhados obrigatoriamente de imagens comprobatórias (Boletim de Ocorrência ou cópia do Diploma rasurado). A emissão somente terá continuidade mediante comprovação do motivo. Para alunos formados antes de 2011/2, a solicitação da 1ª via do diploma também é via formulário e é gratuita. Em caso de 2ª via, é necessário apresentar Boletim de Ocorrência (BO) e RG, referente à perda ou roubo. Para retirada de diplomas emitidos em períodos anteriores (não digitais), será necessária procuração com firma reconhecida em cartório, caso a retirada não seja feita pelo próprio aluno.",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Todos os Níveis",
+        "assunto_principal": "Acadêmico",
+        "sub_assunto": "2ª Via de Diploma",
+        "publico_alvo": "Alunos Concluintes ou Ex-Alunos",
+        "url_fonte_original": "https://guidemeatendimento.crmeducacional.com/atendimento/febasp"
+      }
+    },
+    {
+      "id": "chunk_6_2",
+      "text": "Monitoria. O aluno poderá atuar nos laboratórios relacionados ao seu curso e receber desconto na mensalidade, proporcional à carga horária cumprida. Elegibilidade: Estudantes matriculados entre o segundo e penúltimo semestre do curso. Duração: O aluno poderá participar da monitoria por até dois semestres. Inscrição: O período de inscrição é divulgado através do calendário escolar. A solicitação é realizada via Portal Acadêmico (Menu >> Secretaria >> Requerimentos >> Inscrição em Monitoria). Consulte o Regulamento para conferir as regras: https://www.belasartes.br/wp-content/uploads/2023/03/regulamento-monitoria-2016-2.pdf",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Oportunidades Acadêmicas",
+        "sub_assunto": "Monitoria",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://www.belasartes.br/wp-content/uploads/2023/03/regulamento-monitoria-2016-2.pdf"
+      }
+    },
+    {
+      "id": "chunk_6_3",
+      "text": "Iniciação Científica. A Iniciação Científica visa contribuir para a sistematização e institucionalização da pesquisa, com ações comprometidas com a construção do saber. Modalidades: Bolsista: O aluno será contemplado com desconto de 20% nas mensalidades durante o período de desenvolvimento do projeto. Voluntária: Participação sem desconto na mensalidade. Elegibilidade: Estudantes matriculados entre o 1º e antepenúltimo semestre do curso. Duração: O período de duração é de 10 meses. Para mais informações, consulte o regulamento em nosso site: https://www.belasartes.br/area-do-aluno/iniciacao-cientifica/",
+      "metadata": {
+        "tipo_documento": "Regulamento Acadêmico e FAQs",
+        "nivel_educacional": "Graduação",
+        "assunto_principal": "Oportunidades Acadêmicas",
+        "sub_assunto": "Iniciação Científica",
+        "publico_alvo": "Alunos Ativos",
+        "url_fonte_original": "https://www.belasartes.br/area-do-aluno/iniciacao-cientifica/"
+      }
+    }
+  ]
