@@ -1,6 +1,9 @@
 import google.generativeai as genai
 from config import GEMINI_API_KEY, GEMINI_MODEL
 from data.persona import get_persona, get_saudacao, get_despedida, get_resposta_contextual
+import logging
+
+logger = logging.getLogger(__name__)
 
 class GeminiClient:
     def __init__(self):
@@ -91,6 +94,8 @@ class GeminiClient:
                 full_prompt = f"{persona_instructions}\n\nHistórico da conversa:\n{context}\nUsuário: {prompt}\nAssistente:"
             
             try:
+                token_count = self.model.count_tokens(full_prompt).total_tokens
+                logger.info(f"Tokens enviados para a API do Gemini: {token_count}")
                 response = self.model.generate_content(full_prompt)
                 if response and hasattr(response, 'text'):
                     return response.text
